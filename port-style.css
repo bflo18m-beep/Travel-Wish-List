@@ -1,0 +1,193 @@
+/* General Styles */
+
+body {
+background-image: url('A_seamless_Rococo-inspired_damask_pattern_in_pink_.png');
+  background-repeat: repeat;
+  background-size: 400px 400px; /* adjust to scale pattern */
+  background-attachment: fixed;
+  background-color: #f9e2e7; /* soft pink base under pattern */
+  font-family: "Times New Roman", Times New Roman;
+  color: #5a3a3a;
+  
+}
+
+
+header {
+  background-color: #FFC0CB;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+.subscribe-btn {
+    display: inline-block;
+    background-color: #ff7a00; /* Orange */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #e56c00; /* Slightly darker orange for hover */
+    transform: scale(1.05); /* Slight pop effect */
+}
+
+.subscribe-btn:active {
+    transform: scale(0.98); /* Subtle press effect */
+}
+
+
+nav {
+  text-align: center;
+  margin: 15px;
+}
+
+.btn {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 20px;
+  background-color: #FF69B4;
+  color: white;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #8F00FF;
+
+<div id="my-background">
+  <!-- Content inside your div -->
+</div>
+
+}
+
+.image-container {
+  position: relative;
+  display: inline-block;
+  width: 200px;              /* Adjust width as needed */
+  height: auto;
+  overflow: hidden;
+  border-radius: 10px;
+  border: 2px solid #ffb6c1; /* Optional pastel border */
+}
+
+.image-btn-img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-text {
+  position: absolute;
+  bottom: 10px;              /* You can change to center by using top: 50% and transform */
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.5); /* Slight dark background for readability */
+  color: white;
+  padding: 5px 10px;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.image-btn:hover .image-container {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+
+section {
+  background: white;
+  margin: 20px auto;
+  padding: 20px;
+  width: 85%;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.subscribe-btn {
+    display: inline-block;
+    background-color: #ff7a00; /* Orange */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #e56c00; /* Slightly darker orange for hover */
+    transform: scale(1.05); /* Slight pop effect */
+}
+
+.subscribe-btn:active {
+    transform: scale(0.98); /* Subtle press effect */
+}
+
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+img {
+  width: 200px;
+  height: 130px;
+  margin: 8px;
+  border-radius: 6px;
+}
+
+form input, form button {
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form button {
+  background-color: #0066cc;
+  color: white;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #004c99;
+}
+
+.subscribe-btn {
+    display: inline-block;
+    background-color: #ff7a00; /* Orange */
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.subscribe-btn:hover {
+    background-color: #e56c00; /* Slightly darker orange for hover */
+    transform: scale(1.05); /* Slight pop effect */
+}
+
+.subscribe-btn:active {
+    transform: scale(0.98); /* Subtle press effect */
+}
+
+
+footer {
+  background-color: #FFC0CB;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
